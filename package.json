@@ -1,0 +1,28 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "workshop final",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Agus",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "crossroads": "^0.12.2",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
